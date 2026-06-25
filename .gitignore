@@ -1,0 +1,6 @@
+cases/
+results/
+__pycache__/
+*.pyc
+.DS_Store
+*.tmp
