@@ -104,7 +104,7 @@ Results written to RESULTS.md and results/results.json
 generate_cases.py  2967 bytes
 run_lab.py        11097 bytes
 README.md          5999 bytes
-RESULTS.md         1602 bytes
+RESULTS.md         1594 bytes
 .gitignore           51 bytes
 VERIFY.md        (this file)
 ```
@@ -116,4 +116,5 @@ No external dependencies beyond Python stdlib + optional jq. No network calls du
 ---
 
 Verified: 2026-06-25T22:49:00Z
-Commit: 05bf43b55d3e48cfb67b3065b2130bf576070a29
+Commit: 5640cf05be6d150bf6b3565c5c9d51ae0eff1f0d
+(VERIFY.md to be committed separately)
