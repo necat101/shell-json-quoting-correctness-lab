@@ -53,27 +53,27 @@ RESULTS SUMMARY
 python_json_dumps_baseline:
   Total: 47, Pass: 47, Fail: 0
   Parse errors: 0, Wrong value: 0
-  Median time: 0.0016 ms
+  Median time: 0.0030 ms
 
 naive_concat:
   Total: 47, Pass: 37, Fail: 10
   Parse errors: 9, Wrong value: 1
-  Median time: 0.0005 ms
+  Median time: 0.0009 ms
 
 printf_template_safeish:
   Total: 47, Pass: 47, Fail: 0
   Parse errors: 0, Wrong value: 0
-  Median time: 0.0016 ms
+  Median time: 0.0030 ms
 
 jq_arg:
   Total: 47, Pass: 47, Fail: 0
   Parse errors: 0, Wrong value: 0
-  Median time: 15.9511 ms
+  Median time: 10.3561 ms
 
 subprocess_shell_false:
   Total: 47, Pass: 47, Fail: 0
   Parse errors: 0, Wrong value: 0
-  Median time: 77.5047 ms
+  Median time: 60.5620 ms
 
 Results written to RESULTS.md and results/results.json
 ```
@@ -103,8 +103,8 @@ Results written to RESULTS.md and results/results.json
 ```
 generate_cases.py  2967 bytes
 run_lab.py        11097 bytes
-README.md          5999 bytes
-RESULTS.md         1594 bytes
+README.md          6073 bytes
+RESULTS.md         1602 bytes
 .gitignore           51 bytes
 VERIFY.md        (this file)
 ```
@@ -115,6 +115,5 @@ No external dependencies beyond Python stdlib + optional jq. No network calls du
 
 ---
 
-Verified: 2026-06-25T22:49:00Z
-Commit: 5640cf05be6d150bf6b3565c5c9d51ae0eff1f0d
-(VERIFY.md to be committed separately)
+Verified: 2026-06-25T23:24:00Z
+Commit: 9bf12680245bb42715dd940ea4ead00425006329
